@@ -1,0 +1,108 @@
+body {
+  background: #3e5161;
+  color: #7d8895;
+  font-family: 'Helevetica Neue', Helvetica, Verdana, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+form {
+  margin: 8% auto;
+  width: 400px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+input[type=text], input[type=password] {
+  background: #fff;
+  outline: none;
+  color: #7d8895;
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px;
+  font-size: 1.2em;
+}
+
+button {
+  background: #62c1e0; /* fd6e6e */
+  border: none;
+  color: #FFF;
+  text-transform: uppercase;
+  outline: none;
+  margin: 0;
+  padding: 14px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+button:hover, button:focus {
+  background: #76c6e0;
+}
+
+form .stack input, form .stack button {
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 4px 4px 0 #526b80;
+}
+
+form .stack input {
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #e5e5e5;
+}
+
+form .stack input.error {
+  box-shadow: 4px 4px 0 #f45252;
+}
+
+form .stack button {
+  box-shadow: 4px 4px 0 #5c7890;
+}
+
+form .stack input.last {
+  border-width: 0;
+}
+
+form .stack .top {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+form .stack .middle {
+  border-radius: 0;
+}
+
+form .stack .bottom {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+form .stack label {
+  visibility: hidden;
+  width: 0; height: 0;
+  display: block;
+}
+
+.alert {
+  display: none;
+}
+
+.alert.alert-success {
+  margin: 20px 0 0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.alert.alert-error {
+  color: #f45252;
+}
