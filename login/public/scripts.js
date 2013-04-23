@@ -16,7 +16,7 @@
     messages.hide();
     inputs.removeClass('error');
 
-    $.ajax('http://interview-js.dev:8080', {
+    $.ajax('http://localhost:8080', {
       method: 'POST',
       data:   form.serialize()
     })
