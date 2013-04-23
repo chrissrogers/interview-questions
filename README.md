@@ -1,8 +1,8 @@
 # Interview Response
 
-1.
+1. Start the server
   ```bash
   $ node login
   ```
 
-2. -> `http://localhost:8080/`
+2. [Visit the form](http://localhost:8080/)
